@@ -1,1 +1,1 @@
-Take a string and remove consecutively series of the above combinations: 'AB', 'BA', 'CD', 'DC'.
+Take a string and remove consecutively series of the above combinations: 'AB', 'BA', 'CD', 'DC', until there are no relevant combinations left.
