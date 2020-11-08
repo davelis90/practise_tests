@@ -1,4 +1,5 @@
 def solution(A):
+    # write your code in Python 3.6
     A = sorted(A) # sort vector
     positive_counter = 1;
     # remove duplicate elements

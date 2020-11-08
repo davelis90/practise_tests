@@ -25,7 +25,8 @@ int solution(vector<int> &A) {
     // print(A);
     
     // remove negative elements
-    A.erase(remove_if(A.begin(), A.end(), IsNotPositive), A.end()); // Investigate !!!
+    A.erase(remove_if(A.begin(), A.end(), IsNotPositive), A.end()); // Transforms the range [first,last) into a range with all the elements for which pred returns true removed, and returns an iterator to the new end of that range.
+																	// The function cannot alter the properties of the object containing the range of elements (i.e., it cannot alter the size of an array or a container.
     // print(A);
 
     for (int element:A)
