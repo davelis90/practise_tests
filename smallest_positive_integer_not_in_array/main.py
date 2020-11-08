@@ -10,8 +10,8 @@ def solution(A):
     res = list(filter(lambda x : x > 0, res)) 
     # print(res)
     
-    for i in range(0, len(res)):
-        if res[i] == positive_counter:
+    for element in A:
+        if element == positive_counter:
             positive_counter = positive_counter + 1
         else:
             continue
